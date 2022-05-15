@@ -284,5 +284,32 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+.footer h3{
+    padding: 0;
+    color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: lighter;
+}
+.privacy-herf{
+padding-top: 20px;
+    color:#00DD00;
 
+}
+.icons{
+    padding-top:20px
+}
+.icon{
+    font-size: 1.5rem;
+   padding-left: 10px;
+   padding-right: 10px;
+    color: white;
+}
 
