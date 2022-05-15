@@ -134,9 +134,6 @@
     font-size: 1.3rem;
     color: #00DD00;
 }
-.section2{
- 
-}
 .section3{
     padding-top: 0px;
     margin: 0;
@@ -182,4 +179,33 @@
     max-height: 500px;
     padding: 0px;
     padding-top: 30px;
+}
+.stat-img-1{
+ 
+    max-width: 600px;
+    padding: 0px;
+    padding-top: 30px;
+}
+.stat-img-para-1{
+    display: flex;
+    justify-content: center;
+}
+.join{
+    text-align: center;
+    margin-left: 330px;
+    margin-right: 330px;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.join span{
+    font-weight: bold;
+}
+.companies{
+   
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.partner-logos{
+    max-width: 1300px;
+    margin-left: 100px;
 }
