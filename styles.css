@@ -1,51 +1,59 @@
-*{
+* {
     font-family: sans-serif;
 }
-.head{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/Background.jpg");
+
+.head {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Background.jpg");
     background-position: center;
     background-size: cover;
     background-size: 100% 100%;
 }
-.head-items{
-    
+
+.head-items {
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+
 }
-.logo{
-    margin-left:100px ;
+
+.logo {
+    margin-left: 100px;
     margin-top: 10px;
     max-height: 80px;
     max-width: 100%;
 }
-.navigation{
+
+.navigation {
     margin-left: auto;
     padding-left: 2.2vw;
     padding-right: 100px;
 }
-.nav{
+
+.nav {
     padding: 0.1em;
     text-decoration: none;
-    margin-left:2.2vw;
+    margin-left: 2.2vw;
     font-weight: 700;
     color: white;
 }
-.home{
+
+.home {
     border-bottom: 2px solid white;
 
 }
-.apply-btn{
+
+.apply-btn {
     padding: 13px 22px;
-    background-color:#00DD00 ;
+    background-color: #00DD00;
     border-radius: 5px;
-    
+
     text-decoration: none;
     color: white;
-    
+
 }
-.head-content{
+
+.head-content {
     color: white;
     margin-top: 48px;
     padding-top: 200px;
@@ -53,230 +61,276 @@
     padding-right: 90px;
     padding-bottom: 300px;
 }
-.head-content h1{
+
+.head-content h1 {
     padding-top: 1rem;
     font-size: 3.5em;
     margin: 0px;
 }
-.head-content h2{
+
+.head-content h2 {
     font-size: 2.5em;
     margin: 0px;
     padding-bottom: 1rem;
 }
-.se-p{
+
+.se-p {
     font-size: 1.5em;
     margin: 1rem 0;
     line-height: 1.4;
     max-width: 550px;
     padding-bottom: 2rem;
 }
-.learn{
+
+.learn {
     padding: 13px 22px;
 }
-.stat{
+
+.stat {
     display: flex;
     justify-content: space-around;
-    padding: 50px 230px ;
+    padding: 50px 230px;
     margin-bottom: 100px;
 }
-.stat-num{
-    
+
+.stat-num {
+
     margin: 0;
     padding-bottom: 30px;
     text-align: center;
     font-size: 3.5em;
     color: #00DD00;
 }
-.stat-txt{
+
+.stat-txt {
     text-align: center;
-    font-size: 1.5em;  
+    font-size: 1.5em;
 }
-.stat hr{
+
+.stat hr {
     width: 15px;
     padding-bottom: 2px;
     background-color: black
 }
-.stat-img-para{
+
+.stat-img-para {
 
     display: flex;
     justify-content: space-around;
     padding: 0px 150px;
 }
-.stat-img{
+
+.stat-img {
     max-width: 633px;
     padding-bottom: 50px;
-    padding-left:0px;
+    padding-left: 0px;
 }
-.stat-para p, .stat-para a{
+
+.stat-para p,
+.stat-para a {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 100px;
 }
-.stat-para h1{
+
+.stat-para h1 {
     padding-left: 40px;
 }
+
 .stat-para p {
     font-size: 1.5rem;
 }
-.get{
+
+.get {
     font-weight: 500;
     font-size: 2.5rem;
     padding-bottom: 0px;
     margin: 0;
 }
-.comp{
+
+.comp {
     margin: 0;
     padding-top: 0px;
     font-weight: 700;
     font-size: 2.5rem;
 }
-.learn-arr{
+
+.learn-arr {
     font-size: 1.3rem;
     color: #00DD00;
 }
-.section3{
+
+.section3 {
     padding-top: 0px;
     margin: 0;
-    background-color: #00DD00;}
+    background-color: #00DD00;
+}
 
-.section3-title{
+.section3-title {
     line-height: 1.2;
     color: white;
     font-size: 1.5rem;
     text-align: center;
     padding-top: 50px;
-    
+
 }
-.section3-title h1{
-    
+
+.section3-title h1 {
+
     padding-bottom: 0px;
     margin: 0;
 }
-.dis{
+
+.dis {
     font-size: 3rem;
     font-weight: lighter;
 }
-.that{
+
+.that {
     font-size: 2.5rem;
     font-weight: bold;
 }
-.offers-imgs{
+
+.offers-imgs {
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
 
 }
-.learnmore1{
-    
+
+.learnmore1 {
+
     max-width: 400px;
     max-height: 500px;
     padding: 0px;
     padding-top: 30px;
 }
-.learnmore2{
+
+.learnmore2 {
     margin-left: 40px;
     max-width: 400px;
     max-height: 500px;
     padding: 0px;
     padding-top: 30px;
 }
-.stat-img-1{
- 
+
+.stat-img-1 {
+
     max-width: 600px;
     padding: 0px;
     padding-top: 30px;
 }
-.stat-img-para-1{
+
+.stat-img-para-1 {
     display: flex;
     justify-content: center;
 }
-.join{
+
+.join {
     text-align: center;
     margin-left: 330px;
     margin-right: 330px;
     font-size: 2rem;
     font-weight: lighter;
 }
-.join span{
+
+.join span {
     font-weight: bold;
 }
-.companies{
-   
+
+.companies {
+
     font-size: 1.2rem;
     font-weight: lighter;
 }
-.partner-logos{
+
+.partner-logos {
     max-width: 1300px;
     margin-left: 100px;
 }
-.quote{
+
+.quote {
     margin-left: 350px;
     padding-top: 50px;
     max-width: 850px;
     max-height: 330px;
 }
-.section5{
+
+.section5 {
     background-color: #E6E6E6;
 }
-.sec-titles{
+
+.sec-titles {
     padding-top: 50px;
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
 }
-.media-imgs{
+
+.media-imgs {
     padding-bottom: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-        
+
 }
-.media-imgs-items{
+
+.media-imgs-items {
     max-width: 350px;
     max-height: 90px;
 }
-.fund-part-img{
+
+.fund-part-img {
     max-width: 1300px;
     margin-left: 100px;
 }
-.start-part-imgs{
+
+.start-part-imgs {
     margin-right: 100px;
-    
+
     padding-bottom: 70px;
     display: flex;
     flex-wrap: nowrap;
-    
+
 }
-.section6 hr{
-    width:90%;
+
+.section6 hr {
+    width: 90%;
     background-color: black;
 }
-.start-part-imgs{
+
+.start-part-imgs {
     padding-bottom: 70px;
 }
-.start-imgs{
+
+.start-imgs {
     max-width: 350px;
-    max-height: 110px ;
+    max-height: 110px;
 }
-.section7{
+
+.section7 {
     text-align: center;
     background-color: #E6E6E6;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
-.sec7-txt{
+
+.sec7-txt {
     line-height: 0.5;
 }
-.section7 h1{
+
+.section7 h1 {
     font-size: 2.5rem;
     font-weight: bold;
     padding-top: 50px;
 }
-.section7 h2{
+
+.section7 h2 {
     font-size: 2.5rem;
     font-weight: lighter;
     padding-bottom: 50px;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     font-size: 1.1rem;
     background-color: black;
     color: white;
@@ -284,32 +338,123 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 40px;
     background-color: black;
 }
-.footer h3{
+
+.footer h3 {
     padding: 0;
     color: white;
     margin-left: 300px;
     margin-right: 300px;
     font-weight: lighter;
 }
-.privacy-herf{
-padding-top: 20px;
-    color:#00DD00;
+
+.privacy-herf {
+    padding-top: 20px;
+    color: #00DD00;
 
 }
-.icons{
-    padding-top:20px
+
+.icons {
+    padding-top: 20px
 }
-.icon{
+
+.icon {
     font-size: 1.5rem;
-   padding-left: 10px;
-   padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
 }
 
+@media (max-width: 641px) {
+    body {
+
+        font-size: 12px;
+    }
+
+    .logo {
+        margin: 0;
+        padding: 20px;
+        max-width: 80px;
+        max-height: 60px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .head-content {
+        padding: 0;
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+
+    .head-content p {
+        padding-right: 50px;
+    }
+
+    .stat {
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-wrap: wrap;
+    }
+
+    .stat-det {
+        flex-basis: 100%;
+        padding-bottom: 20px;
+    }
+
+    .stat-img-para {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 60px;
+        flex-wrap: wrap;
+    }
+
+    .stat-img {
+        max-width: 330px;
+        flex-basis: 100%;
+    }
+
+    .stat-para {
+        padding: 0;
+        margin: 0;
+    }
+
+    .stat-para h1 {
+        font-size: 1.7rem;
+    }
+
+    .stat-para p {
+        padding-right: 60px;
+        padding-left: 60px;
+        font-size: 1.1rem;
+    }
+
+    .stat-para a {
+        margin: 0;
+        padding-left: 60px;
+        padding-bottom: 10px;
+        font-size: 1.1rem;
+    }
+    .section3-title h1{ 
+        font-size: 1.8rem;
+    }
+    .offers-imgs{
+        flex-wrap:wrap ;
+    }
+    .learnmore1, .learnmore2{
+        max-width: 300px;
+    }
+    .learnmore2{
+        margin-right: 50px;
+    }
+
+}
