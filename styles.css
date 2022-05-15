@@ -221,7 +221,7 @@
 .sec-titles{
     padding-top: 50px;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 .media-imgs{
@@ -234,4 +234,8 @@
 .media-imgs-items{
     max-width: 350px;
     max-height: 90px;
+}
+.fund-part-img{
+    max-width: 1300px;
+    margin-left: 100px;
 }
