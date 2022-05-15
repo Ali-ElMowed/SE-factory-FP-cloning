@@ -239,3 +239,23 @@
     max-width: 1300px;
     margin-left: 100px;
 }
+.start-part-imgs{
+    margin-right: 100px;
+    
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.section6 hr{
+    width:90%;
+    background-color: black;
+}
+.start-imgs{
+    padding: 0%;
+    margin: 0%;
+    max-width: 350px;
+    max-height: 110px ;
+    
+   
+}
