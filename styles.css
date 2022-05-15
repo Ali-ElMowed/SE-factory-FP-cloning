@@ -37,9 +37,10 @@
 
 }
 .apply-btn{
+    padding: 13px 22px;
     background-color:#00DD00 ;
     border-radius: 5px;
-    padding: 10px;
+    
     text-decoration: none;
     color: white;
     
