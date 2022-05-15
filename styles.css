@@ -239,7 +239,6 @@
 }
 
 .companies {
-
     font-size: 1.2rem;
     font-weight: lighter;
 }
@@ -444,17 +443,143 @@
         padding-bottom: 10px;
         font-size: 1.1rem;
     }
-    .section3-title h1{ 
+
+    .section3-title h1 {
         font-size: 1.8rem;
     }
-    .offers-imgs{
-        flex-wrap:wrap ;
+
+    .offers-imgs {
+        flex-wrap: wrap;
     }
-    .learnmore1, .learnmore2{
+
+    .learnmore1,
+    .learnmore2 {
         max-width: 300px;
     }
-    .learnmore2{
+
+    .learnmore2 {
         margin-right: 50px;
     }
 
+    .stat-img-para-1 {
+        flex-wrap: wrap;
+    }
+
+    .stat-img-1 {
+        max-width: 330px;
+        flex-basis: 100%;
+    }
+
+    .stat-para {
+        padding: 0;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .stat-para h1 {
+        font-size: 1.7rem;
+    }
+
+    .stat-para p {
+        padding-right: 60px;
+        padding-left: 60px;
+        font-size: 1.1rem;
+    }
+
+    .join {
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .join p {
+        font-size: 1.5rem;
+    }
+
+    #companies {
+        font-size: 1rem;
+    }
+
+    .partner-logos {
+        margin: 0;
+
+        max-width: 370px;
+    }
+
+    .quote {
+        margin: 0px;
+        padding: 0;
+        padding-top: 20px;
+        max-width: 370px;
+    }
+
+    .sec-titles {
+        font-size: 2rem;
+    }
+
+    .media-imgs-items {
+        padding-bottom: 20px;
+    }
+
+    .fund-part-img {
+        padding: 0;
+        margin: 0;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        max-width: 330px;
+    }
+
+    .start-part-imgs {
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .start-imgs {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 30px;
+        max-width: 400px;
+    }
+
+    .sec7-txt h1 {
+        line-height: 1;
+        font-size: 2rem;
+    }
+
+    .section7 h2 {
+        line-height: 1;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        padding-bottom: 50px;
+    }
+    .footer{
+        justify-self: space-between;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .privacy-herf{
+        padding-right: 220px;
+        padding-bottom: 20px;
+        
+    }
+    #copy{
+        margin: 0px;
+        margin-left: 30px;
+        padding-left: 30px;
+        padding: 0;
+        font-size: 1.1rem;
+    }
+    .icons {
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        padding-left: 200px;
+        
+    }
+    .icons a{
+        font-size: 1rem;
+    }
 }
